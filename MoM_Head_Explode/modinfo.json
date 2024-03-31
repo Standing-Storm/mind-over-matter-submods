@@ -1,0 +1,58 @@
+[
+  {
+    "type": "MOD_INFO",
+    "id": "mom_head_explode",
+    "name": "Mind Over Matter: <color_magenta>Head Explosion Nether Attunement Effect</color>",
+    "authors": [ "Standing-Storm" ],
+    "description": "<color_red>Increases Difficulty!</color>  If you roll the Headache Nether Attunement effect when you already have the Headache Nether Attunement effect, there is a chance your head explodes and you die.",
+    "category": "misc_additions",
+    "dependencies": [ "dda", "mindovermatter" ]
+  },
+  {
+    "type": "effect_on_condition",
+    "id": "EOC_DRAIN_EFFECT_CHECK_HEADACHE",
+    "//": "Base is 0.5% chance from 15 attunement to 60 attunement, then scaling up 0.1% per attunement up to 10.5% chance at 160 attunement, then scaling up 0.25% chance per attunement up to 33% chance at max, plus 1/10th the Difficulty squared.",
+    "condition": {
+      "and": [
+        { "math": [ "u_vitamin('vitamin_psionic_drain')", ">=", "15" ] },
+        {
+          "x_in_y_chance": {
+            "x": {
+              "math": [
+                "( clamp( (u_vitamin('vitamin_psionic_drain') - 60), 0, 160) + clamp( ( (u_vitamin('vitamin_psionic_drain') - 160) * 1.5 ), 0, 375) + (nether_attune_difficulty_scaler(u_latest_channeled_power_difficulty)) + 5)"
+              ]
+            },
+            "y": 1000
+          }
+        }
+      ]
+    },
+    "effect": [
+      {
+        "run_eocs": [
+          {
+            "id": "EOC_DRAIN_EFFECT_CHECK_HEADACHE_2",
+            "condition": { "x_in_y_chance": { "x": { "math": [ "u_effect_intensity('psionic_overload')" ] }, "y": 10 } },
+            "effect": [
+              {
+                "u_message": "The already intense pressure in your head builds into a pounding like a hammer on an anvil.  As you channel the Nether energy, your head feels like an egg with something trying to force its way out...until suddenly, it does.  There is a moment of searing pain, and then blackness.",
+                "type": "bad",
+                "popup": true
+              },
+              { "math": [ "u_hp('head')", "-=", "300" ] }
+            ],
+            "false_effect": [
+              { "u_message": "As you unleash your powers, your head begins to throb.", "type": "bad" },
+              {
+                "u_add_effect": "psionic_overload",
+                "duration": {
+                  "math": [ "time(' 30 s') * rng( ( u_vitamin('vitamin_psionic_drain') / 2 ), ( u_vitamin('vitamin_psionic_drain') * 2 ) )" ]
+                }
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+]

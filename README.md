@@ -5,6 +5,7 @@ A collection of submods for Mind Over Matter to tweak some aspects of the mod, g
 - MoM_Always_Awaken: Tweaks the formula so that attempting to awaken a new psionic path is always successful. 
 - MoM_Harsher_Nether_Attunement_Scaling: Changes Nether Attunement scaling to be less generous than default, starting at 40% of default values, hitting 100% of default values at Nether Attunement 6, and reaching 166% of default scaling at Nether Attunement 12.
 - MoM_Harsher_Nether_Attunement_Scaling_No_Negative: The same as MoM_Harsher_Nether_Attunement_Scalinga, but also removes negative nether attunmement effects. Use this instead of MoM_No_Negative_Nether_Attunement if you want the harsher scaling.
+- MoM_Head_Explode: If you roll the Headache Nether Attunement effect when you already have the Headache Nether Attunement effect, there is a chance your head explodes and you die. 
 - MoM_Infinite_Concentration: Removes the limit for the number of powers you can concentrate on at once. Being stunned, breaking a limb, or falling asleep will still end concentration on your powers. 
 - MoM_No_Calorie_Cost: Removes the kcal cost from psionics usage. 
 - MoM_No_Negative_Nether_Attunement: Removes all the negative effects of Nether Attunement but keeps the power boost from having high levels of Nether Attunement.
