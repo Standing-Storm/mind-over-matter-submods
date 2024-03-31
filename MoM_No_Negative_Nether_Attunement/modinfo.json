@@ -11,11 +11,11 @@
   {
     "type": "effect_on_condition",
     "id": "EOC_PSIONICS_DRAIN_EVENTS",
-    "effects": [  ]
+    "effect": [  ]
   },
   {
     "type": "effect_on_condition",
     "id": "EOC_PSIONICS_NETHER_AREA_CHECK",
-    "effects": [  ]
+    "effect": [  ]
   }
 ]

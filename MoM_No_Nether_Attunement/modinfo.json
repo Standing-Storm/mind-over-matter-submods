@@ -18,21 +18,21 @@
   {
     "type": "effect_on_condition",
     "id": "EOC_PSIONICS_GAIN_NETHER_ATTUNEMENT",
-    "effects": [  ]
+    "effect": [  ]
   },
   {
     "type": "effect_on_condition",
     "id": "EOC_NETHER_CONDUIT_VALUE_INCREASER",
-    "effects": [  ]
+    "effect": [  ]
   },
   {
     "type": "effect_on_condition",
     "id": "EOC_PSIONICS_DRAIN_EVENTS",
-    "effects": [  ]
+    "effect": [  ]
   },
   {
     "type": "effect_on_condition",
     "id": "EOC_PSIONICS_NETHER_AREA_CHECK",
-    "effects": [  ]
+    "effect": [  ]
   }
 ]
