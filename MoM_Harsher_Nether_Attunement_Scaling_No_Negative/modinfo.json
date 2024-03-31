@@ -31,7 +31,7 @@
         { "case": 245, "effect": { "math": [ "u_nether_attunement_power_scaling", "=", "1.6666" ] } }
       ]
     },
-    "false_effect": { "math": [ "u_nether_attunement_power_scaling", "=", "1.05" ] }
+    "false_effect": { "math": [ "u_nether_attunement_power_scaling", "=", "0.45" ] }
   },
   {
     "type": "effect_on_condition",
