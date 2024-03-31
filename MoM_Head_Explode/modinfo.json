@@ -35,7 +35,7 @@
             "condition": { "x_in_y_chance": { "x": { "math": [ "u_effect_intensity('psionic_overload')" ] }, "y": 10 } },
             "effect": [
               {
-                "u_message": "The already intense pressure in your head builds into a pounding like a hammer on an anvil.  As you channel the Nether energy, your head feels like an egg with something trying to force its way out...until suddenly, it does.  There is a moment of searing pain, and then blackness.",
+                "u_message": "The already intense pressure in your head builds into a pounding like a hammer striking an anvil.  As you channel the Nether energy, your head feels like an egg with something trying to force its way out...until suddenly, it does.  There is a moment of searing pain, and then blackness.",
                 "type": "bad",
                 "popup": true
               },
