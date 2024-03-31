@@ -22,6 +22,11 @@
   },
   {
     "type": "effect_on_condition",
+    "id": "EOC_PSIONICS_GAIN_NETHER_ATTUNEMENT_2",
+    "effect": [  ]
+  },
+  {
+    "type": "effect_on_condition",
     "id": "EOC_NETHER_CONDUIT_VALUE_INCREASER",
     "effect": [  ]
   },
