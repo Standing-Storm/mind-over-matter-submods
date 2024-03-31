@@ -1,0 +1,38 @@
+[
+  {
+    "type": "MOD_INFO",
+    "id": "mom_no_nether_attunement",
+    "name": "Mind Over Matter: <color_magenta>No Nether Attunement Effects</color>",
+    "authors": [ "Standing-Storm" ],
+    "description": "Removes all effects from Nether Attunement and most ways to gain it.",
+    "category": "misc_additions",
+    "dependencies": [ "dda", "mindovermatter" ]
+  },
+  {
+    "type": "effect_on_condition",
+    "id": "EOC_PSIONICS_SET_NETHER_ATTUNEMENT_BOOST",
+    "eoc_type": "EVENT",
+    "required_event": "opens_spellbook",
+    "effect": [ { "math": [ "u_nether_attunement_power_scaling", "=", "1" ] } ]
+  },
+  {
+    "type": "effect_on_condition",
+    "id": "EOC_PSIONICS_GAIN_NETHER_ATTUNEMENT",
+    "effects": [  ]
+  },
+  {
+    "type": "effect_on_condition",
+    "id": "EOC_NETHER_CONDUIT_VALUE_INCREASER",
+    "effects": [  ]
+  },
+  {
+    "type": "effect_on_condition",
+    "id": "EOC_PSIONICS_DRAIN_EVENTS",
+    "effects": [  ]
+  },
+  {
+    "type": "effect_on_condition",
+    "id": "EOC_PSIONICS_NETHER_AREA_CHECK",
+    "effects": [  ]
+  }
+]

@@ -1,0 +1,21 @@
+[
+  {
+    "type": "MOD_INFO",
+    "id": "mom_no_negative_nether_attunement",
+    "name": "Mind Over Matter: <color_magenta>No Negative Nether Attunement Effects</color>",
+    "authors": [ "Standing-Storm" ],
+    "description": "Removes all negative effects from Nether Attunement while retaining the positive ones.",
+    "category": "misc_additions",
+    "dependencies": [ "dda", "mindovermatter" ]
+  },
+  {
+    "type": "effect_on_condition",
+    "id": "EOC_PSIONICS_DRAIN_EVENTS",
+    "effects": [  ]
+  },
+  {
+    "type": "effect_on_condition",
+    "id": "EOC_PSIONICS_NETHER_AREA_CHECK",
+    "effects": [  ]
+  }
+]
