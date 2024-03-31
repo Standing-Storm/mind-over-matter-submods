@@ -1,0 +1,28 @@
+[
+  {
+    "type": "MOD_INFO",
+    "id": "mom_no_calorie_cost",
+    "name": "Mind Over Matter: <color_magenta>Remove Calorie Cost from Psionics</color>",
+    "authors": [ "Standing-Storm" ],
+    "description": "Completely removes the caloric cost of psionic usage",
+    "category": "misc_additions",
+    "dependencies": [ "dda", "mindovermatter" ]
+  },
+  {
+    "type": "effect_on_condition",
+    "id": "  EOC_PSIONICS_KCAL_COST",
+    "effect": [  ]
+  },
+  {
+    "type": "jmath_function",
+    "id": "psionics_kcal_cost",
+    "num_args": 1,
+    "return": "_0 * 0"
+  },
+  {
+    "type": "jmath_function",
+    "id": "psionics_contemplation_kcal_cost",
+    "num_args": 1,
+    "return": "_0 * 0"
+  }
+]

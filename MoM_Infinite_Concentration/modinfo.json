@@ -1,0 +1,17 @@
+[
+  {
+    "type": "MOD_INFO",
+    "id": "mom_infinite_concentration",
+    "name": "Mind Over Matter: <color_magenta>Remove Concentration Limit</color>",
+    "authors": [ "Standing-Storm" ],
+    "description": "Removes the limitation on the number of powers you can concentrate on at once.  Being stunned, breaking a limb, or falling asleep will still end concentration on your powers",
+    "category": "misc_additions",
+    "dependencies": [ "dda", "mindovermatter" ]
+  },
+  {
+    "type": "jmath_function",
+    "id": "concentration_trait_bonuses",
+    "num_args": 0,
+    "return": "200"
+  }
+]
