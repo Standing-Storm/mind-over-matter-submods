@@ -10,6 +10,8 @@ A collection of submods for Mind Over Matter to tweak some aspects of the mod, g
 - MoM_No_Calorie_Cost: Removes the kcal cost from psionics usage. 
 - MoM_No_Negative_Nether_Attunement: Removes all the negative effects of Nether Attunement but keeps the power boost from having high levels of Nether Attunement.
 - MoM_No_Nether_Attunement, removes all effects of Nether Attunement and most ways to gain it. While contemplation recipes will still cause Nether Attunement, it will have no effect on the game. Only choose this one or MoM_No_Negative_Nether_Attunement, otherwise only the last-loaded submod will have an effect. 
+- MoM_Raise_Pain_Disabling_Psi_Limit: Doubles the amount of pain you can suffer before pain disables your powers.
 - MoM_Remove_Learn_Power_Delay: Removes the random delay before becoming eligble for learning new powers.
+- MoM_Remove_Pain_Disabling_Psi_Limit: Removes the possibility of pain disabling your powers.
 
 If there's desire, I can also add submods to make it more difficult. 

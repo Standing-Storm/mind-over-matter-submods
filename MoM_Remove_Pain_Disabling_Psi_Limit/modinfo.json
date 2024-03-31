@@ -1,0 +1,16 @@
+[
+  {
+    "type": "MOD_INFO",
+    "id": "mom_remove_pain_disables_psi_limit",
+    "name": "Mind Over Matter: <color_magenta>Remove Pain Disables Powers</color>",
+    "authors": [ "Standing-Storm" ],
+    "description": "Removes the possibility of pain disabling your psionic powers.",
+    "category": "misc_additions",
+    "dependencies": [ "dda", "mindovermatter" ]
+  },
+  {
+    "type": "effect_on_condition",
+    "id": "EOC_PAIN_DISABLES_PSI",
+    "effect": [  ]
+  }
+]
