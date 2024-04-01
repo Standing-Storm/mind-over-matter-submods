@@ -1,0 +1,133 @@
+[
+  {
+    "type": "MOD_INFO",
+    "id": "mom_feral_psions_always_crystals",
+    "name": "Mind Over Matter: <color_magenta>Feral Psions Always Drop Crystals</color>",
+    "authors": [ "Standing-Storm" ],
+    "description": "Buffs the drop chance for feral psions (not counting lab-based psions) dropping crystals to 100%.",
+    "category": "misc_additions",
+    "dependencies": [ "dda", "mindovermatter" ]
+  },
+  {
+    "type": "item_group",
+    "subtype": "collection",
+    "id": "feral_humans_death_drops_bio",
+    "entries": [
+      { "group": "default_zombie_clothes", "prob": 100 },
+      { "group": "wallets", "prob": 80 },
+      { "group": "homebooks", "prob": 5 },
+      { "group": "default_zombie_items_bags_small", "prob": 50 },
+      { "group": "default_zombie_items_pockets", "count": [ 1, 2 ], "prob": 50 },
+      { "group": "feral_humans_crystal_drops_bio", "prob": 100 }
+    ]
+  },
+  {
+    "type": "item_group",
+    "subtype": "collection",
+    "id": "feral_humans_death_drops_clair",
+    "entries": [
+      { "group": "default_zombie_clothes", "prob": 100 },
+      { "group": "wallets", "prob": 80 },
+      { "group": "homebooks", "prob": 5 },
+      { "group": "default_zombie_items_bags_small", "prob": 50 },
+      { "group": "default_zombie_items_pockets", "count": [ 1, 2 ], "prob": 50 },
+      { "group": "feral_humans_crystal_drops_clair", "prob": 100 }
+    ]
+  },
+  {
+    "type": "item_group",
+    "subtype": "collection",
+    "id": "feral_humans_death_drops_electro",
+    "entries": [
+      { "group": "default_zombie_clothes", "prob": 100 },
+      { "group": "wallets", "prob": 80 },
+      { "group": "homebooks", "prob": 5 },
+      { "group": "default_zombie_items_bags_small", "prob": 50 },
+      { "group": "default_zombie_items_pockets", "count": [ 1, 2 ], "prob": 50 },
+      { "group": "feral_humans_crystal_drops_electro", "prob": 100 }
+    ]
+  },
+  {
+    "type": "item_group",
+    "subtype": "collection",
+    "id": "feral_humans_death_drops_photo",
+    "entries": [
+      { "group": "default_zombie_clothes", "prob": 100 },
+      { "group": "wallets", "prob": 80 },
+      { "group": "homebooks", "prob": 5 },
+      { "item": "heavy_flashlight", "prob": 80, "charges-min": 12, "charges-max": 74 },
+      { "group": "default_zombie_items_bags_small", "prob": 50 },
+      { "group": "default_zombie_items_pockets", "count": [ 1, 2 ], "prob": 50 },
+      { "group": "feral_humans_crystal_drops_photo", "prob": 100 }
+    ]
+  },
+  {
+    "type": "item_group",
+    "subtype": "collection",
+    "id": "feral_humans_death_drops_pyro",
+    "entries": [
+      { "group": "default_zombie_clothes", "prob": 100 },
+      { "group": "wallets", "prob": 80 },
+      { "group": "homebooks", "prob": 5 },
+      { "item": "lighter", "count": [ 1, 3 ], "prob": 80, "charges-min": 12, "charges-max": 74 },
+      { "group": "default_zombie_items_bags_small", "prob": 50 },
+      { "group": "default_zombie_items_pockets", "count": [ 1, 2 ], "prob": 50 },
+      { "group": "feral_humans_crystal_drops_pyro", "prob": 100 }
+    ]
+  },
+  {
+    "type": "item_group",
+    "subtype": "collection",
+    "id": "feral_humans_death_drops_telekin",
+    "entries": [
+      { "group": "default_zombie_clothes", "prob": 100 },
+      { "group": "wallets", "prob": 80 },
+      { "item": "rock", "prob": 80, "count": [ 1, 3 ] },
+      { "group": "homebooks", "prob": 5 },
+      { "group": "default_zombie_items_bags_small", "prob": 50 },
+      { "group": "default_zombie_items_pockets", "count": [ 1, 2 ], "prob": 50 },
+      { "group": "feral_humans_crystal_drops_telekin", "prob": 100 }
+    ]
+  },
+  {
+    "type": "item_group",
+    "subtype": "collection",
+    "id": "feral_humans_death_drops_teep",
+    "entries": [
+      { "group": "default_zombie_clothes", "prob": 100 },
+      { "group": "wallets", "prob": 80 },
+      { "group": "homebooks", "prob": 5 },
+      { "group": "default_zombie_items_bags_small", "prob": 50 },
+      { "group": "tools_common_small", "count": [ 1, 2 ], "prob": 10 },
+      { "group": "default_zombie_items_pockets", "count": [ 1, 2 ], "prob": 50 },
+      { "group": "feral_humans_crystal_drops_teep", "prob": 100 }
+    ]
+  },
+  {
+    "type": "item_group",
+    "subtype": "collection",
+    "id": "feral_humans_death_drops_porter",
+    "entries": [
+      { "group": "default_zombie_clothes", "prob": 100 },
+      { "group": "wallets", "prob": 80 },
+      { "group": "homebooks", "prob": 5 },
+      { "group": "default_zombie_items_bags_small", "prob": 50 },
+      { "group": "tools_common_small", "count": [ 1, 2 ], "prob": 10 },
+      { "group": "default_zombie_items_pockets", "count": [ 1, 2 ], "prob": 50 },
+      { "group": "feral_humans_crystal_drops_porter", "prob": 100 }
+    ]
+  },
+  {
+    "type": "item_group",
+    "subtype": "collection",
+    "id": "feral_humans_death_drops_vita",
+    "entries": [
+      { "group": "default_zombie_clothes", "prob": 100 },
+      { "group": "wallets", "prob": 80 },
+      { "group": "homebooks", "prob": 5 },
+      { "group": "default_zombie_items_bags_small", "prob": 50 },
+      { "group": "default_zombie_items_pockets", "count": [ 1, 2 ], "prob": 50 },
+      { "group": "feral_humans_crystal_drops_vita", "prob": 100 }
+    ]
+  }
+]
