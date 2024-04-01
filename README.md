@@ -4,7 +4,7 @@ A collection of submods for Mind Over Matter to tweak some aspects of the mod, g
 
 - MoM_Always_Awaken: Tweaks the formula so that attempting to awaken a new psionic path is always successful. 
 - MoM_Awakening_Is_Rarer: Tweaks the formula so that attempting to awaken a new psionic path is much more difficulty than the default. 
-- MoM_Feral_Psions_Always_Drop_Crystals: Chance of a feral psion dropping some kind of crystal is increased to 100%.
+- MoM_Feral_Psions_Always_Drop_Crystals: Chance of a non-lab-based feral psion dropping some kind of crystal is increased to 100%.
 - MoM_Harsher_Nether_Attunement_Scaling: Changes Nether Attunement scaling to be less generous than default, starting at 40% of default values, hitting 100% of default values at Nether Attunement 6, and reaching 166% of default scaling at Nether Attunement 12.
 - MoM_Harsher_Nether_Attunement_Scaling_No_Negative: The same as MoM_Harsher_Nether_Attunement_Scaling, but also removes negative nether attunmement effects. Use this instead of MoM_No_Negative_Nether_Attunement if you want the harsher scaling.
 - MoM_Head_Explode: If you roll the Headache Nether Attunement effect when you already have the Headache Nether Attunement effect, there is a chance your head explodes and you die. 
