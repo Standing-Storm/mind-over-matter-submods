@@ -14,5 +14,3 @@ A collection of submods for Mind Over Matter to tweak some aspects of the mod, g
 - MoM_Remove_Learn_Power_Delay: Removes the random delay before becoming eligble for learning new powers.
 - MoM_Remove_Observed_Nether_Effects: Changes the two Nether Attunement effects that require Observed, summoning the Hounds and opening a Tear in Reality, into a headache.
 - MoM_Remove_Pain_Disabling_Psi_Limit: Removes the possibility of pain disabling your powers.
-
-If there's desire, I can also add submods to make it more difficult. 
