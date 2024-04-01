@@ -1,0 +1,51 @@
+[
+  {
+    "type": "MOD_INFO",
+    "id": "mom_increase_power_learn_delay",
+    "name": "Mind Over Matter: <color_magenta>Increase Random Delay Before Learning New Powers</color>",
+    "authors": [ "Standing-Storm" ],
+    "description": "<color_red>Increases Difficulty!</color>  Change the 12 to 168 hour delay before becoming eligible to learn a new power to 7 days to 30 days.  If you play with greatly-decreased skill gain or love long games, use this.",
+    "category": "misc_additions",
+    "dependencies": [ "dda", "mindovermatter" ]
+  },
+  {
+    "type": "effect_on_condition",
+    "id": "EOC_PSI_LEARNING_VITAMIN_COUNTER",
+    "recurrence": [ "7 days", "30 days" ],
+    "condition": {
+      "and": [
+        {
+          "u_has_any_trait": [
+            "BIOKINETIC",
+            "CLAIRSENTIENT",
+            "ELECTROKINETIC",
+            "PHOTOKINETIC",
+            "PYROKINETIC",
+            "TELEKINETIC",
+            "TELEPATH",
+            "TELEPORTER",
+            "VITAKINETIC"
+          ]
+        },
+        { "math": [ "u_vitamin('vitamin_psi_learning_counter')", "==", "0" ] },
+        { "not": { "u_has_effect": "effect_psi_learning_new_power" } }
+      ]
+    },
+    "deactivate_condition": {
+      "not": {
+        "u_has_any_trait": [
+          "BIOKINETIC",
+          "CLAIRSENTIENT",
+          "ELECTROKINETIC",
+          "PHOTOKINETIC",
+          "PYROKINETIC",
+          "TELEKINETIC",
+          "TELEPATH",
+          "TELEPORTER",
+          "VITAKINETIC"
+        ]
+      }
+    },
+    "effect": [ { "math": [ "u_vitamin('vitamin_psi_learning_counter')", "+=", "1" ] } ]
+  }
+]
