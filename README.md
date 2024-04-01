@@ -12,7 +12,7 @@ A collection of submods for Mind Over Matter to tweak some aspects of the mod, g
 - MoM_No_Nether_Attunement, removes all effects of Nether Attunement and most ways to gain it. While contemplation recipes will still cause Nether Attunement, it will have no effect on the game. Only choose this one or MoM_No_Negative_Nether_Attunement, otherwise only the last-loaded submod will have an effect. 
 - MoM_Raise_Pain_Disabling_Psi_Limit: Doubles the amount of pain you can suffer before pain disables your powers.
 - MoM_Remove_Learn_Power_Delay: Removes the random delay before becoming eligble for learning new powers.
-- MoM_Remove_Observed_Nether_Effects: Changes the two Nether Attunement effects that require Observed but are harsher into a headache.
+- MoM_Remove_Observed_Nether_Effects: Changes the two Nether Attunement effects that require Observed, summoning the Hounds and opening a Tear in Reality, into a headache.
 - MoM_Remove_Pain_Disabling_Psi_Limit: Removes the possibility of pain disabling your powers.
 
 If there's desire, I can also add submods to make it more difficult. 
