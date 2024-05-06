@@ -1,0 +1,21 @@
+[
+  {
+    "type": "MOD_INFO",
+    "id": "mom_no_power_path_check_learn_delay",
+    "name": "Mind Over Matter: <color_magenta>Remove Random Delay Before Gaining Power Insight</color>",
+    "authors": [ "Standing-Storm" ],
+    "description": "Remove the 12 to 168 hour delay before becoming eligible to learn a new power.  Individual powers still have their own rolling delays.",
+    "category": "misc_additions",
+    "dependencies": [ "dda", "mindovermatter" ]
+  },
+  {
+    "type": "effect_on_condition",
+    "id": "EOC_MOM_SUBMOD_GAMESTART_INSIGHT_VARIABLES",
+    "eoc_type": "EVENT",
+    "required_event": "game_begin",
+    "effect": [
+      { "math": [ "global_insight_power_learning_time_low", "=", "300" ] },
+      { "math": [ "global_insight_power_learning_time_high", "=", "300" ] }
+    ]
+  }
+]

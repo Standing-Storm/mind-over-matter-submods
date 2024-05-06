@@ -2,50 +2,24 @@
   {
     "type": "MOD_INFO",
     "id": "mom_no_power_learn_delay",
-    "name": "Mind Over Matter: <color_magenta>Remove Random Delay Before Learning New Powers</color>",
+    "name": "Mind Over Matter: <color_magenta>Remove Rolling Delay in Each Path for Checking Learning Prerequisites</color>",
     "authors": [ "Standing-Storm" ],
-    "description": "Remove the 12 to 168 hour delay before becoming eligible to learn a new power.  Individual powers still have their own rolling delays.",
+    "description": "REduce the delay between checking that you're eligible to learn particular powers to five minutes.  This eliminates the rolling delays mentioned in the Remove Random Delay Before Learning New Powers submod.",
     "category": "misc_additions",
     "dependencies": [ "dda", "mindovermatter" ]
   },
   {
     "type": "effect_on_condition",
-    "id": "EOC_PSI_LEARNING_VITAMIN_COUNTER",
-    "recurrence": [ "5 minutes", "5 minutes" ],
-    "condition": {
-      "and": [
-        {
-          "u_has_any_trait": [
-            "BIOKINETIC",
-            "CLAIRSENTIENT",
-            "ELECTROKINETIC",
-            "PHOTOKINETIC",
-            "PYROKINETIC",
-            "TELEKINETIC",
-            "TELEPATH",
-            "TELEPORTER",
-            "VITAKINETIC"
-          ]
-        },
-        { "math": [ "u_vitamin('vitamin_psi_learning_counter')", "==", "0" ] },
-        { "not": { "u_has_effect": "effect_psi_learning_new_power" } }
-      ]
-    },
-    "deactivate_condition": {
-      "not": {
-        "u_has_any_trait": [
-          "BIOKINETIC",
-          "CLAIRSENTIENT",
-          "ELECTROKINETIC",
-          "PHOTOKINETIC",
-          "PYROKINETIC",
-          "TELEKINETIC",
-          "TELEPATH",
-          "TELEPORTER",
-          "VITAKINETIC"
-        ]
-      }
-    },
-    "effect": [ { "math": [ "u_vitamin('vitamin_psi_learning_counter')", "+=", "1" ] } ]
+    "id": "EOC_MOM_SUBMOD_GAMESTART_LEARNING_VARIABLES",
+    "eoc_type": "EVENT",
+    "required_event": "game_begin",
+    "effect": [
+      { "math": [ "global_tier_one_power_learning_time_low", "=", "300" ] },
+      { "math": [ "global_tier_one_power_learning_time_high", "=", "300" ] },
+      { "math": [ "global_tier_two_power_learning_time_low", "=", "300" ] },
+      { "math": [ "global_tier_two_power_learning_time_high", "=", "300" ] },
+      { "math": [ "global_tier_three_power_learning_time_low", "=", "300" ] },
+      { "math": [ "global_tier_three_power_learning_time_high", "=", "300" ] }
+    ]
   }
 ]
