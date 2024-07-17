@@ -39,5 +39,10 @@
     "type": "effect_on_condition",
     "id": "EOC_PSIONICS_NETHER_AREA_CHECK",
     "effect": [  ]
+  },
+  {
+    "type": "effect_on_condition",
+    "id": "EOC_PSI_STUDYING_POWER_NETHER_ATTUNEMENT",
+    "effect": [   ]
   }
 ]
