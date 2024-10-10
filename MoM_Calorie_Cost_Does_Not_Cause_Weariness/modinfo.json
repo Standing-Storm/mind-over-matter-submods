@@ -1,0 +1,16 @@
+[
+  {
+    "type": "MOD_INFO",
+    "id": "mom_calorie_cost_does_not_cause_weariness",
+    "name": "Mind Over Matter: <color_magenta>Psionic Calorie Costs Do Not Cause Weariness</color>",
+    "authors": [ "Standing-Storm" ],
+    "description": "The calorie costs from using psionics will not affect your weariness level.",
+    "category": "misc_additions",
+    "dependencies": [ "dda", "mindovermatter" ]
+  },
+  {
+    "type": "effect_on_condition",
+    "id": "EOC_PSIONICS_KCAL_COST",
+    "effect": [ { "math": [ "u_calories('dont_affect_weariness': true)", "-=", "psionics_kcal_cost(u_latest_channeled_power_difficulty)" ] } ]
+  }
+]
