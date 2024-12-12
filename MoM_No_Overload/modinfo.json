@@ -1,0 +1,63 @@
+[
+  {
+    "type": "MOD_INFO",
+    "id": "mom_no_overload",
+    "name": "Mind Over Matter: <color_magenta>No Overload</color>",
+    "authors": [ "Standing-Storm" ],
+    "description": "Removes the possibility of overload on a failed power channel or when channeling at high Nether Attunement.",
+    "category": "misc_additions",
+    "dependencies": [ "dda", "mindovermatter" ]
+  },
+  {
+    "type": "effect_on_condition",
+    "id": "EOC_PSIONICS_BIOKINETIC_CHANNELING_FAILURE",
+    "effect": [
+    ]
+  },
+  {
+    "type": "effect_on_condition",
+    "id": "EOC_PSIONICS_CLAIRSENTIENT_CHANNELING_FAILURE",  
+    "effect": [
+    ]
+  },
+  {
+    "type": "effect_on_condition",
+    "id": "EOC_PSIONICS_ELECTROKINETIC_CHANNELING_FAILURE",
+    "effect": [    ]
+  },
+  {
+    "type": "effect_on_condition",
+    "id": "EOC_PSIONICS_PHOTOKINETIC_CHANNELING_FAILURE",
+    "effect": [
+    ]
+  },
+  {
+    "type": "effect_on_condition",
+    "id": "EOC_PSIONICS_PYROKINETIC_CHANNELING_FAILURE",
+    "effect": [
+    ]
+  },
+  {
+    "type": "effect_on_condition",
+    "id": "EOC_PSIONICS_TELEKINETIC_CHANNELING_FAILURE",
+    "effect": [
+    ]
+  },
+  {
+    "type": "effect_on_condition",
+    "id": "EOC_PSIONICS_TELEPATH_CHANNELING_FAILURE",
+    "effect": [
+    ]
+  },
+  {
+    "type": "effect_on_condition",
+    "id": "EOC_PSIONICS_TELEPORTER_CHANNELING_FAILURE",
+    "effect": [
+    ]
+  },
+  {
+    "type": "effect_on_condition",
+    "id": "EOC_PSIONICS_VITAKINETIC_CHANNELING_FAILURE",
+    "effect": [    ]
+  }
+]
