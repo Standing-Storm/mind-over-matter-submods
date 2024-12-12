@@ -13,7 +13,8 @@ A collection of submods for Mind Over Matter to tweak some aspects of the mod, g
 - MoM_Infinite_Concentration: Removes the limit for the number of powers you can concentrate on at once. Being stunned, breaking a limb, or falling asleep will still end concentration on your powers. 
 - MoM_No_Calorie_Cost: Removes the kcal cost from psionics usage. 
 - MoM_No_Negative_Nether_Attunement: Removes all the negative effects of Nether Attunement but keeps the power boost from having high levels of Nether Attunement.
-- MoM_No_Nether_Attunement, removes all effects of Nether Attunement and most ways to gain it. While contemplation recipes will still cause Nether Attunement, it will have no effect on the game. Only choose this one or MoM_No_Negative_Nether_Attunement, otherwise only the last-loaded submod will have an effect. 
+- MoM_No_Nether_Attunement: removes all effects of Nether Attunement and most ways to gain it. While contemplation recipes will still cause Nether Attunement, it will have no effect on the game. Only choose this one or MoM_No_Negative_Nether_Attunement, otherwise only the last-loaded submod will have an effect.
+- MoM_No_Overload: Removes power overloaded from a failed channel or from using your powers at too high Nether Attunement. This is not a Nether Attunement effect.
 - MoM_Raise_Pain_Disabling_Psi_Limit: Doubles the amount of pain you can suffer before pain disables your powers.
 - MoM_Remove_Learn_Power_Delay: Removes the random delay before becoming eligble for learning new powers.
 - MoM_Remove_Learn_Path_Power_Checks_Delay: Removes the delay before checking whether you actually learn a power once eligible.  Combined with the previous mod, fulfilling the prerequisites will make you nearly-instantly learn new powers.
