@@ -23,7 +23,9 @@
   {
     "type": "effect_on_condition",
     "id": "EOC_PSIONICS_ELECTROKINETIC_CHANNELING_FAILURE",
-    "effect": [    ]
+    "effect": [
+      
+    ]
   },
   {
     "type": "effect_on_condition",
