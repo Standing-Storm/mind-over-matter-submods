@@ -8,13 +8,13 @@
     "category": "misc_additions",
     "dependencies": [ "dda", "mindovermatter" ]
   },
-  {
-    "type": "effect_on_condition",
-    "id": "EOC_PSIONICS_BIOKINETIC_CHANNELING_FAILURE",
-    "effect": [
-    ]
-  },
-  {
+  {
+    "type": "effect_on_condition",
+    "id": "EOC_PSIONICS_BIOKINETIC_CHANNELING_FAILURE",
+    "effect": [
+    ]
+  },
+  {
     "type": "effect_on_condition",
     "id": "EOC_PSIONICS_CLAIRSENTIENT_CHANNELING_FAILURE",  
     "effect": [
