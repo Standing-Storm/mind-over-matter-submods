@@ -60,6 +60,7 @@
   {
     "type": "effect_on_condition",
     "id": "EOC_PSIONICS_VITAKINETIC_CHANNELING_FAILURE",
-    "effect": [    ]
+    "effect": [ 
+    ]
   }
 ]
