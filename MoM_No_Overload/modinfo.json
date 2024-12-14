@@ -15,49 +15,49 @@
     ]
   },
   {
-    "type": "effect_on_condition",
-    "id": "EOC_PSIONICS_CLAIRSENTIENT_CHANNELING_FAILURE",  
-    "effect": [
-    ]
-  },
-  {
-    "type": "effect_on_condition",
-    "id": "EOC_PSIONICS_ELECTROKINETIC_CHANNELING_FAILURE",
-    "effect": [    ]
-  },
-  {
-    "type": "effect_on_condition",
-    "id": "EOC_PSIONICS_PHOTOKINETIC_CHANNELING_FAILURE",
-    "effect": [
-    ]
-  },
-  {
-    "type": "effect_on_condition",
-    "id": "EOC_PSIONICS_PYROKINETIC_CHANNELING_FAILURE",
-    "effect": [
-    ]
-  },
-  {
-    "type": "effect_on_condition",
-    "id": "EOC_PSIONICS_TELEKINETIC_CHANNELING_FAILURE",
-    "effect": [
-    ]
-  },
-  {
-    "type": "effect_on_condition",
-    "id": "EOC_PSIONICS_TELEPATH_CHANNELING_FAILURE",
-    "effect": [
-    ]
-  },
-  {
-    "type": "effect_on_condition",
-    "id": "EOC_PSIONICS_TELEPORTER_CHANNELING_FAILURE",
-    "effect": [
-    ]
-  },
-  {
-    "type": "effect_on_condition",
-    "id": "EOC_PSIONICS_VITAKINETIC_CHANNELING_FAILURE",
-    "effect": [    ]
+    "type": "effect_on_condition",
+    "id": "EOC_PSIONICS_CLAIRSENTIENT_CHANNELING_FAILURE",
+    "effect": [
+    ]
+  },
+  {
+    "type": "effect_on_condition",
+    "id": "EOC_PSIONICS_ELECTROKINETIC_CHANNELING_FAILURE",
+    "effect": [    ]
+  },
+  {
+    "type": "effect_on_condition",
+    "id": "EOC_PSIONICS_PHOTOKINETIC_CHANNELING_FAILURE",
+    "effect": [
+    ]
+  },
+  {
+    "type": "effect_on_condition",
+    "id": "EOC_PSIONICS_PYROKINETIC_CHANNELING_FAILURE",
+    "effect": [
+    ]
+  },
+  {
+    "type": "effect_on_condition",
+    "id": "EOC_PSIONICS_TELEKINETIC_CHANNELING_FAILURE",
+    "effect": [
+    ]
+  },
+  {
+    "type": "effect_on_condition",
+    "id": "EOC_PSIONICS_TELEPATH_CHANNELING_FAILURE",
+    "effect": [
+    ]
+  },
+  {
+    "type": "effect_on_condition",
+    "id": "EOC_PSIONICS_TELEPORTER_CHANNELING_FAILURE",
+    "effect": [
+    ]
+  },
+  {
+    "type": "effect_on_condition",
+    "id": "EOC_PSIONICS_VITAKINETIC_CHANNELING_FAILURE",
+    "effect": [    ]
   }
 ]
