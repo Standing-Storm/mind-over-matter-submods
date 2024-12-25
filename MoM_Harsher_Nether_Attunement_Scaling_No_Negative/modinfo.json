@@ -55,7 +55,7 @@
   },
   {
     "type": "effect_on_condition",
-    "id": "EOC_PSIONICS_DRAIN_EVENTS",
+    "id": "EOC_PSIONICS_NETHER_ATTUNEMENT_CONSEQUENCES_SETUP",
     "effect": [  ]
   },
   {
