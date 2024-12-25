@@ -4,7 +4,7 @@
     "id": "mom_no_power_learn_delay",
     "name": "Mind Over Matter: <color_magenta>Remove Rolling Delay in Each Path for Checking Learning Prerequisites</color>",
     "authors": [ "Standing-Storm" ],
-    "description": "REduce the delay between checking that you're eligible to learn particular powers to five minutes.  This eliminates the rolling delays mentioned in the Remove Random Delay Before Learning New Powers submod.",
+    "description": "Reduce the delay between checking that you're eligible to learn particular powers to five minutes.  This eliminates the rolling delays mentioned in the Remove Random Delay Before Learning New Powers submod.",
     "category": "misc_additions",
     "dependencies": [ "dda", "mindovermatter" ]
   },
