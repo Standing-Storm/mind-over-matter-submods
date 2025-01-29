@@ -5,6 +5,7 @@ A collection of submods for Mind Over Matter to tweak some aspects of the mod, g
 - MoM_Always_Awaken: Tweaks the formula so that attempting to awaken a new psionic path is always successful. 
 - MoM_Awakening_Is_Rarer: Tweaks the formula so that attempting to awaken a new psionic path is much more difficult than the default.
 - MoM_Calorie_Cost_Does_Not_Cause_Weariness: By default, the calorie expenditure from using psionics is the same as exercise, causing weariness and eventually making you very or extremely weary. This submod removes that, preventing psionics usage from affecting your weariness.
+- MoM_Experience_Edits: There are three subfolders--use only one. Each increases the experience gained when channeling or contemplating powers. One by 2x, one by 4x, and one by 10x. 
 - MoM_Feral_Psions_Always_Drop_Crystals: Chance of a non-lab-based feral psion dropping some kind of crystal is increased to 100%.
 - MoM_Harsher_Nether_Attunement_Scaling: Changes Nether Attunement scaling to be less generous than default, starting at 40% of default values, hitting 100% of default values at Nether Attunement 6, and reaching 166% of default scaling at Nether Attunement 12.
 - MoM_Harsher_Nether_Attunement_Scaling_No_Negative: The same as MoM_Harsher_Nether_Attunement_Scaling, but also removes negative nether attunmement effects. Use this instead of MoM_No_Negative_Nether_Attunement if you want the harsher scaling.

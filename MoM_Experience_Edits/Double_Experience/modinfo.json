@@ -1,0 +1,23 @@
+[
+  {
+    "type": "MOD_INFO",
+    "id": "mom_channeling_double_experience",
+    "name": "Mind Over Matter: <color_magenta>Doubled Experience</color>",
+    "authors": [ "Standing-Storm" ],
+    "description": "Doubles the experience gains when channeling or contemplating powers.",
+    "category": "misc_additions",
+    "dependencies": [ "dda", "mindovermatter" ]
+  },
+  {
+    "type": "jmath_function",
+    "id": "psionic_power_experience_formula_channeling",
+    "num_args": 0,
+    "return": "(u_val('focus_effective') / 100 ) * 160 * ( ( u_val('intelligence') + 10) / 20 ) * min( ( 0.5 + ( u_skill('metaphysics') / 20) ), 1) * u_nether_attunement_power_scaling"
+  },
+  {
+    "type": "jmath_function",
+    "id": "psionic_power_experience_formula",
+    "num_args": 0,
+    "return": "(u_val('focus_effective') / 100) * 160 * ( ( u_val('intelligence') + 10) / 20 ) * min( ( 0.5 + ( u_skill('metaphysics') / 20) ), 1) * u_nether_attunement_power_scaling"
+  }
+]
