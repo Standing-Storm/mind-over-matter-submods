@@ -1,0 +1,23 @@
+[
+  {
+    "type": "MOD_INFO",
+    "id": "mom_power_learning_is_instant",
+    "name": "Mind Over Matter: <color_magenta>Power Learning Is Instant</color>",
+    "authors": [ "Standing-Storm" ],
+    "description": "Reduces the meditation time needed to learn a new psionic power from several hours to 1 second.",
+    "category": "misc_additions",
+    "dependencies": [ "dda", "mindovermatter" ]
+  },
+  {
+    "type": "jmath_function",
+    "id": "learn_new_power_lower_time_bound",
+    "num_args": 1,
+    "return": "(_0 * 0) + 1"
+  },
+  {
+    "type": "jmath_function",
+    "id": "learn_new_power_upper_time_bound",
+    "num_args": 1,
+    "return": "(_0 * 0) + 1"
+  }
+]
