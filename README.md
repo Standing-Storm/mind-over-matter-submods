@@ -16,6 +16,9 @@ A collection of submods for Mind Over Matter to tweak some aspects of the mod, g
 - MoM_No_Negative_Nether_Attunement: Removes all the negative effects of Nether Attunement but keeps the power boost from having high levels of Nether Attunement.
 - MoM_No_Nether_Attunement: removes all effects of Nether Attunement and most ways to gain it. While contemplation recipes will still cause Nether Attunement, it will have no effect on the game. Only choose this one or MoM_No_Negative_Nether_Attunement, otherwise only the last-loaded submod will have an effect.
 - MoM_No_Overload: Removes power overloaded from a failed channel or from using your powers at too high Nether Attunement. This is not a Nether Attunement effect.
+- MoM_Power_Learning_Is_Automatic: Reduce the difficulty of the metaphysics roll to learn a new power to 1, ensuring success.
+- MoM_Power_Learning_Is_Harder: Increase the difficulty of the metaphysics roll to learn a new power by 3, from power Difficulty + 4 to power Difficulty + 7.
+- MoM_Power_Learning_Is_Instant: Reduces the time required to meditation to learn a new power from several hours to one second.
 - MoM_Raise_Pain_Disabling_Psi_Limit: Doubles the amount of pain you can suffer before pain disables your powers.
 - MoM_Remove_Learn_Power_Delay: Removes the random delay before becoming eligble for learning new powers.
 - MoM_Remove_Learn_Path_Power_Checks_Delay: Removes the delay before checking whether you actually learn a power once eligible.  Combined with the previous mod, fulfilling the prerequisites will make you nearly-instantly learn new powers.
