@@ -1,0 +1,18 @@
+[
+  {
+    "type": "MOD_INFO",
+    "id": "mom_remove_teleporter_volume_limits",
+    "name": "Mind Over Matter: <color_magenta>Remove Teleporter Volume Limits</color>",
+    "authors": [ "Standing-Storm" ],
+    "description": "Removes the carried volume limit on Teleportation powers such as Farstep or Gateway.",
+    "category": "misc_additions",
+    "dependencies": [ "dda", "mindovermatter" ]
+  },
+ {
+    "type": "effect_on_condition",
+    "id": "EOC_TELEPORT_SELF_CARRIED_VOLUME_CHECKER",
+    "effect": [
+      { "math": [ "u_teleport_total_carried_volume = 0" ] }
+    ]
+  }
+]
