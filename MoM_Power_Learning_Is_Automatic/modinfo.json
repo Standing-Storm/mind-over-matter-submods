@@ -6,7 +6,8 @@
     "authors": [ "Standing-Storm" ],
     "description": "Normally, learning a power requires a roll of metaphysics + 1d10 (+1 if you have the appropriate proficiency) vs the power Difficulty + 4.  This changes the roll to be vs 1 no matter the Difficulty, so you always succeed.",
     "category": "misc_additions",
-    "dependencies": [ "dda", "mindovermatter" ]
+    "dependencies": [ "dda", "mindovermatter" ],
+    "conflicts": [ "mom_power_learning_is_harder" ]
   },
    {
     "type": "jmath_function",
