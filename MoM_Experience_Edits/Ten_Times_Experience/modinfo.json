@@ -6,7 +6,8 @@
     "authors": [ "Standing-Storm" ],
     "description": "Multiplies by ten the experience gains when channeling or contemplating powers.",
     "category": "misc_additions",
-    "dependencies": [ "dda", "mindovermatter" ]
+    "dependencies": [ "dda", "mindovermatter" ],
+    "conflicts": [ "mom_channeling_double_experience", "mom_channeling_quadruple_experience" ]
   },
   {
     "type": "jmath_function",
