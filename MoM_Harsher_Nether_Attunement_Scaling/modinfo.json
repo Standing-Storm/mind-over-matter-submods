@@ -6,7 +6,8 @@
     "authors": [ "Standing-Storm" ],
     "description": "<color_red>Increases Difficulty!</color>  Tweaks the formula so that powers are less effective than default.",
     "category": "misc_additions",
-    "dependencies": [ "dda", "mindovermatter" ]
+    "dependencies": [ "dda", "mindovermatter" ],
+    "conflicts": [ "mom_harsher_nether_attunement_scaling_no_negative" ]
   },
   {
     "type": "effect_on_condition",
