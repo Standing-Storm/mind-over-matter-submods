@@ -6,7 +6,8 @@
     "authors": [ "Standing-Storm" ],
     "description": "Removes all negative effects from Nether Attunement while retaining the positive ones.",
     "category": "misc_additions",
-    "dependencies": [ "dda", "mindovermatter" ]
+    "dependencies": [ "dda", "mindovermatter" ],
+    "conflicts": [ "mom_no_nether_attunement" ]
   },
   {
     "type": "effect_on_condition",
