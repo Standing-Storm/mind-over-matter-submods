@@ -6,7 +6,8 @@
     "authors": [ "Standing-Storm" ],
     "description": "Removes all effects from Nether Attunement and most ways to gain it.",
     "category": "misc_additions",
-    "dependencies": [ "dda", "mindovermatter" ]
+    "dependencies": [ "dda", "mindovermatter" ],
+     "conflicts": [ "mom_harsher_nether_attunement_scaling_no_negative", "mom_harsher_nether_attunement_scaling", "mom_no_negative_nether_attunement" ]
   },
   {
     "type": "effect_on_condition",
