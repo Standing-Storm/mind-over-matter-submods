@@ -6,7 +6,8 @@
     "authors": [ "Standing-Storm" ],
     "description": "Removes the possibility of pain disabling your psionic powers.",
     "category": "misc_additions",
-    "dependencies": [ "dda", "mindovermatter" ]
+    "dependencies": [ "dda", "mindovermatter" ],
+    "conflicts": [ "mom_raise_pain_disables_psi_limit" ] 
   },
   {
     "type": "effect_on_condition",
