@@ -6,7 +6,8 @@
     "authors": [ "Standing-Storm" ],
     "description": "Doubles the amount of pain you can suffer before your psi powers are disabled and doubles the effectiveness of traits or proficiencies that affect this limit.",
     "category": "misc_additions",
-    "dependencies": [ "dda", "mindovermatter" ]
+    "dependencies": [ "dda", "mindovermatter" ],
+    "conflicts": [ "mom_remove_pain_disables_psi_limit" ] 
   },
   {
     "type": "effect_on_condition",
