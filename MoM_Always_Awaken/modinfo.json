@@ -6,7 +6,8 @@
     "authors": [ "Standing-Storm" ],
     "description": "Tweaks the formula so that awakening to new psionic paths always succeeds.",
     "category": "misc_additions",
-    "dependencies": [ "dda", "mindovermatter" ]
+    "dependencies": [ "dda", "mindovermatter" ],
+    "conflicts": [ "mom_awakening_is_rarer" ]
   },
   {
     "type": "jmath_function",
