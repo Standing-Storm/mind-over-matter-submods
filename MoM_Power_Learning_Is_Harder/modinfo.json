@@ -1,17 +1,18 @@
 [
    {
-    "type": "MOD_INFO",
-    "id": "mom_power_learning_is_harder",
-    "name": "Mind Over Matter: <color_magenta>Power Learning Is Harder</color>",
-    "authors": [ "Standing-Storm" ],
-    "description": "<color_red>Increases Difficulty!</color>  Normally, learning a power requires a roll of metaphysics + 1d10 (+1 if you have the appropriate proficiency) vs the power Difficulty + 4.  This changes the roll to be vs Difficulty + 7.",
-    "category": "misc_additions",
-    "dependencies": [ "dda", "mindovermatter" ]
-  },
-  {
-    "type": "jmath_function",
-    "id": "learn_new_power_difficulty_setting",
-    "num_args": 0,
-    "return": "u_latest_studied_power_difficulty + 7"
-  }
+      "type": "MOD_INFO",
+      "id": "mom_power_learning_is_harder",
+      "name": "Mind Over Matter: <color_magenta>Power Learning Is Harder</color>",
+      "authors": [ "Standing-Storm" ],
+      "description": "<color_red>Increases Difficulty!</color>  Normally, learning a power requires a roll of metaphysics + 1d10 (+1 if you have the appropriate proficiency) vs the power Difficulty + 4.  This changes the roll to be vs Difficulty + 7.",
+      "category": "misc_additions",
+      "dependencies": [ "dda", "mindovermatter" ],
+      "conflicts": [ "mom_power_learning_is_automatic" ]
+   },
+   {
+      "type": "jmath_function",
+      "id": "learn_new_power_difficulty_setting",
+      "num_args": 0,
+      "return": "u_latest_studied_power_difficulty + 7"
+   }
 ]
