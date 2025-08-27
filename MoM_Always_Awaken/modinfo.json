@@ -12,13 +12,13 @@
   {
     "type": "jmath_function",
     "id": "matrix_awakening_odds",
-    "num_args": 0,
-    "return": "100"
+    "num_args": 1,
+    "return": "(_0 * 0) + 100"
   },
   {
     "type": "jmath_function",
     "id": "portal_storm_awakening_odds",
-    "num_args": 0,
-    "return": "100"
+    "num_args": 1,
+    "return": "(_0 * 0) + 100"
   }
 ]
