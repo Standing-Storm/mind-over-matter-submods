@@ -2,7 +2,8 @@
 
 A collection of submods for Mind Over Matter to tweak some aspects of the mod, generally making it easier. Details listed below:
 
-- MoM_Always_Awaken: Tweaks the formula so that attempting to awaken a new psionic path is always successful. 
+- MoM_Always_Awaken: Tweaks the formula so that attempting to awaken a new psionic path is always successful.
+- MoM_Always_Awaken_Stable: Tweaks the formula so that attempting to awaken a new psionic path is always successful. Use in 0.H and 0.I Stable. 
 - MoM_Awakening_Is_Rarer: Tweaks the formula so that attempting to awaken a new psionic path is much more difficult than the default.
 - MoM_Calorie_Cost_Does_Not_Cause_Weariness: By default, the calorie expenditure from using psionics is the same as exercise, causing weariness and eventually making you very or extremely weary. This submod removes that, preventing psionics usage from affecting your weariness.
 - MoM_Experience_Edits: There are three subfolders--use only one. Each increases the experience gained when channeling or contemplating powers. One by 2x, one by 4x, and one by 10x. 
