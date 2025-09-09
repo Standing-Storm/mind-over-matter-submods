@@ -1,0 +1,24 @@
+[
+  {
+    "type": "MOD_INFO",
+    "id": "mom_always_awaken_stable",
+    "name": "Mind Over Matter: <color_magenta>Awakenings Are Always Successful (Stable Version)</color>",
+    "authors": [ "Standing-Storm" ],
+    "description": "Tweaks the formula so that awakening to new psionic paths always succeeds.",
+    "category": "misc_additions",
+    "dependencies": [ "dda", "mindovermatter" ],
+    "conflicts": [ "mom_awakening_is_rarer" ]
+  },
+  {
+    "type": "jmath_function",
+    "id": "matrix_awakening_odds",
+    "num_args": 1,
+    "return": "(_0 * 0)"
+  },
+  {
+    "type": "jmath_function",
+    "id": "portal_storm_awakening_odds",
+    "num_args": 1,
+    "return": "(_0 * 0)"
+  }
+]
