@@ -18,5 +18,10 @@
     "type": "effect_on_condition",
     "id": "EOC_PSIONICS_NETHER_AREA_CHECK",
     "effect": [  ]
+  },
+  {
+    "type": "effect_on_condition",
+    "id": "EOC_CONCENTRATION_CHECK_FOR_NETHER_ATTUNEMENT_BACKLASH",
+    "effect": [  ]
   }
 ]
