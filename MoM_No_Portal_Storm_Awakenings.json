@@ -1,0 +1,32 @@
+[
+  {
+    "type": "MOD_INFO",
+    "id": "mom_no_portal_storm_awakenings",
+    "name": "Mind Over Matter: <color_magenta>Disable Portal Storm Awakenings</color>",
+    "authors": [ "Standing-Storm" ],
+    "description": "Turns off the possibilty of awakening in a portal storm.",
+    "category": "misc_additions",
+    "dependencies": [ "dda", "mindovermatter" ]
+  },
+  {
+    "type": "jmath_function",
+    "id": "portal_storm_awakening_odds",
+    "num_args": 1,
+    "return": "_0 * 0"
+  },
+  {
+    "type": "effect_on_condition",
+    "id": "EOC_PORTAL_STORM_PSION_AWAKENING_DISTANT",
+    "effect": []
+  },
+  {
+    "type": "effect_on_condition",
+    "id": "EOC_PORTAL_STORM_PSION_AWAKENING_MEDIUM",
+    "effect": []
+  },
+  {
+    "type": "effect_on_condition",
+    "id": "EOC_PORTAL_STORM_PSION_AWAKENING_CLOSE",
+    "effect": []
+  }
+]
