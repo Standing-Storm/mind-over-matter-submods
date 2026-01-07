@@ -20,5 +20,11 @@
     "id": "psionic_power_experience_formula",
     "num_args": 0,
     "return": "(u_val('focus_effective') / 100) * 320 * ( ( u_val('intelligence') + 10) / 20 ) * min( ( 0.5 + ( u_skill('metaphysics') / 20) ), 1) * u_nether_attunement_power_scaling"
+  },
+  {
+    "type": "jmath_function",
+    "id": "contemplation_factor",
+    "num_args": 0,
+    "return": "(u_val('focus_effective') * 0.004) * u_nether_attunement_power_scaling * clamp( ( ( u_vitamin('vitamin_maintained_powers') > 0 ) ? ( (1 + u_has_proficiency('prof_concentration_master') ) / ( 1 + u_vitamin('vitamin_maintained_powers') ) ) : 1), 0.1,1) * 4"
   }
 ]
