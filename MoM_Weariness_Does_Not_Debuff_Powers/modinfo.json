@@ -1,0 +1,17 @@
+[
+  {
+    "type": "MOD_INFO",
+    "id": "mom_weariness_no_power_debuffs",
+    "name": "Mind Over Matter: <color_magenta>Weariness Does Not Debuff Powers</color>",
+    "authors": [ "Standing-Storm" ],
+    "description": "Prevents higher levels of weariness from reducing the scaling of your psionic powers.",
+    "category": "misc_additions",
+    "dependencies": [ "dda", "mindovermatter" ]
+  },
+  {
+    "type": "jmath_function",
+    "id": "weariness_power_scaling",
+    "num_args": 0,
+    "return": "1"
+  }
+]
