@@ -1,0 +1,23 @@
+[
+  {
+    "type": "MOD_INFO",
+    "id": "mom_limit_power_intelligence_scaling",
+    "name": "Mind Over Matter: <color_magenta>Limit Power Intelligence Scaling</color>",
+    "authors": [ "Standing-Storm" ],
+    "description": "<color_red>Increases Difficulty!</color>  Caps Intelligence scaling so 15 is the max for determining power statistic bonuses and 13 is the max for determining maximum power level.",
+    "category": "misc_additions",
+    "dependencies": [ "dda", "mindovermatter" ]
+  },
+  {
+    "type": "jmath_function",
+    "id": "int_to_level",
+    "num_args": 1,
+    "return": "min( ( (u_val('intelligence') * 1.5) * (_0) ), 20)"
+  },
+  {
+    "type": "jmath_function",
+    "id": "scaling_factor",
+    "num_args": 1,
+    "return": "min( ( ( _0 + 10) / 20 ), 1.25)"
+  }
+]
