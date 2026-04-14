@@ -5,7 +5,7 @@
     "name": "Mind Over Matter: <color_magenta>Remove Random Delay Before Gaining Power Insight</color>",
     "authors": [ "Standing-Storm" ],
     "description": "Remove the 12 to 168 hour delay before becoming eligible to learn a new power.  Individual powers still have their own rolling delays.",
-    "category": "misc_additions",
+    "category": "rebalance",
     "dependencies": [ "dda", "mindovermatter" ]
   },
   {

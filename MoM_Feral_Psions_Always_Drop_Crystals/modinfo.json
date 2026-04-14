@@ -5,7 +5,7 @@
     "name": "Mind Over Matter: <color_magenta>Feral Psions Always Drop Crystals</color>",
     "authors": [ "Standing-Storm" ],
     "description": "Buffs the drop chance for feral psions (not counting lab-based psions) dropping crystals to 100%.",
-    "category": "misc_additions",
+    "category": "rebalance",
     "dependencies": [ "dda", "mindovermatter" ]
   },
   {

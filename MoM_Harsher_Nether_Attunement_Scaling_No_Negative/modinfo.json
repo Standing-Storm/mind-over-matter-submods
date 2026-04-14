@@ -5,7 +5,7 @@
     "name": "Mind Over Matter: <color_magenta>Harsher Nether Attunement Scaling with No Negative Effects</color>",
     "authors": [ "Standing-Storm" ],
     "description": "<color_red>Increases Difficulty!</color>  Tweaks the formula so that powers are less effective than default, but there are no negative effects from Nether Attunement.",
-    "category": "misc_additions",
+    "category": "rebalance",
     "dependencies": [ "dda", "mindovermatter" ],
     "conflicts": [ "mom_harsher_nether_attunement_scaling", "mom_no_nether_attunement" ]
   },

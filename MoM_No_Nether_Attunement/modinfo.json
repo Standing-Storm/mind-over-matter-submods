@@ -5,9 +5,13 @@
     "name": "Mind Over Matter: <color_magenta>No Nether Attunement Effects</color>",
     "authors": [ "Standing-Storm" ],
     "description": "Removes all effects from Nether Attunement and most ways to gain it.",
-    "category": "misc_additions",
+    "category": "rebalance",
     "dependencies": [ "dda", "mindovermatter" ],
-     "conflicts": [ "mom_harsher_nether_attunement_scaling_no_negative", "mom_harsher_nether_attunement_scaling", "mom_no_negative_nether_attunement" ]
+    "conflicts": [
+      "mom_harsher_nether_attunement_scaling_no_negative",
+      "mom_harsher_nether_attunement_scaling",
+      "mom_no_negative_nether_attunement"
+    ]
   },
   {
     "type": "effect_on_condition",
@@ -44,6 +48,6 @@
   {
     "type": "effect_on_condition",
     "id": "EOC_PSI_STUDYING_POWER_NETHER_ATTUNEMENT",
-    "effect": [   ]
+    "effect": [  ]
   }
 ]
