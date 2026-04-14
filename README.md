@@ -12,7 +12,8 @@ A collection of submods for Mind Over Matter to tweak some aspects of the mod, g
 - MoM_Harsher_Nether_Attunement_Scaling_No_Negative: The same as MoM_Harsher_Nether_Attunement_Scaling, but also removes negative nether attunmement effects. Use this instead of MoM_No_Negative_Nether_Attunement if you want the harsher scaling.
 - MoM_Head_Explode: If you roll the Headache Nether Attunement effect when you already have the Headache Nether Attunement effect, there is a chance your head explodes and you die. 
 - MoM_Increase_Random_Power_Delay: Increases the timer before being eligible to learn new powers from 12 to 168 hours to 7 to 30 days. Use if you really like long games or turn the default skill gain rate down. 
-- MoM_Infinite_Concentration: Removes the limit for the number of powers you can concentrate on at once. Being stunned, breaking a limb, or falling asleep will still end concentration on your powers. 
+- MoM_Infinite_Concentration: Removes the limit for the number of powers you can concentrate on at once. Being stunned, breaking a limb, or falling asleep will still end concentration on your powers.
+- MoM_Limit_Power_Intelligence_Scaling: The same as the Psychic Scream rebalance mod tweaks, this capps Intelligence scaling so 15 is the maximum effective Intelligence for bonuses and 14 is the maximum effective Intelligence for determining power level.
 - MoM_No_Calorie_Cost: Removes the kcal cost from psionics usage. 
 - MoM_No_Negative_Nether_Attunement: Removes all the negative effects of Nether Attunement but keeps the power boost from having high levels of Nether Attunement.
 - MoM_No_Nether_Attunement: removes all effects of Nether Attunement and most ways to gain it. While contemplation recipes will still cause Nether Attunement, it will have no effect on the game. Only choose this one or MoM_No_Negative_Nether_Attunement, otherwise only the last-loaded submod will have an effect.
