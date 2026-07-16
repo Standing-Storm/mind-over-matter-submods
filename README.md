@@ -15,6 +15,7 @@ A collection of submods for Mind Over Matter to tweak some aspects of the mod, g
 - MoM_Infinite_Concentration: Removes the limit for the number of powers you can concentrate on at once. Being stunned, breaking a limb, or falling asleep will still end concentration on your powers.
 - MoM_Limit_Power_Intelligence_Scaling: The same as the Psychic Scream rebalance mod tweaks, this capps Intelligence scaling so 15 is the maximum effective Intelligence for bonuses and 14 is the maximum effective Intelligence for determining power level.
 - MoM_No_Calorie_Cost: Removes the kcal cost from psionics usage. 
+- MoM_No_Exercise_For_Learning_Powers: Changes the exercise for learning and studying powers to NO_EXERCISE, preventing them from costing weariness.
 - MoM_No_Negative_Nether_Attunement: Removes all the negative effects of Nether Attunement but keeps the power boost from having high levels of Nether Attunement.
 - MoM_No_Nether_Attunement: removes all effects of Nether Attunement and most ways to gain it. While contemplation recipes will still cause Nether Attunement, it will have no effect on the game. Only choose this one or MoM_No_Negative_Nether_Attunement, otherwise only the last-loaded submod will have an effect.
 - MoM_No_Overload: Removes power overloaded from a failed channel or from using your powers at too high Nether Attunement. This is not a Nether Attunement effect.

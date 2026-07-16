@@ -1,0 +1,28 @@
+[
+  {
+    "type": "MOD_INFO",
+    "id": "mom_no_exercise_learning_powers",
+    "name": "Mind Over Matter: <color_magenta>Learning Powers is NO_EXERCISE</color>",
+    "authors": [ "Standing-Storm" ],
+    "description": "Changes studying and learning powers to NO_EXERCISE, preventing them from using up your weariness.",
+    "category": "rebalance",
+    "dependencies": [ "dda", "mindovermatter" ]
+  },
+  {
+    "id": "ACT_PSI_STUDYING_POWER",
+    "type": "activity_type",
+    "activity_level": "NO_EXERCISE",
+    "verb": "meditating",
+    "based_on": "time",
+    "rooted": true,
+    "do_turn_eoc": "EOC_PSI_STUDYING_POWER"
+  },
+  {
+    "id": "ACT_PSI_LEARNING_NEW_POWER",
+    "type": "activity_type",
+    "activity_level": "NO_EXERCISE",
+    "verb": "meditating",
+    "rooted": true,
+    "based_on": "time"
+  }
+]
